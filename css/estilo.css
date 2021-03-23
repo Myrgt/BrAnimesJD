@@ -60,3 +60,122 @@ header nav a :hover{
     background-color: #ffff00;
     color: #000;
 }
+
+header nav a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+header nav a:hover{
+    background-color: #ffff00;
+    color #000;
+}
+
+
+footer{
+    background-color: black;
+    color:#ffffff;
+    text-align: center;
+    padding:  20px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer nav a:hover{
+    color: #ffff00;
+    text-decoration: underline overline;
+}
+
+main{
+    width: 960px;
+    margin: auto;
+    min-height: 727px;
+}
+
+msin h1{
+    text-align: center;
+}
+
+.texto_banner{
+    font-size: 25pt;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#assistir{
+    text-decoration: none;
+    display: block;
+    font-size: 18pt;
+    width: 300px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    line-height: 50px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.destaque{
+    background-color: rgb(29, 110, 143);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destaque h3{
+    width: 100%;
+    text-align: center;
+    font-size: 26pt;
+    color: rgb(0, 209, 146);
+    text-shadow: 5px 5px 5px black;
+
+}
+
+.destaque figure img{
+    width: 150px;
+}
+
+#assinar{
+    text-decoration: none;
+    display: block;
+    font-size: 20pt;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(236, 209, 56);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    line-height: 70px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galeria img{
+    width: 250px;
+    margin: 10px;
+}
+
