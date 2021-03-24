@@ -227,3 +227,38 @@ input, textarea{
     box-sizing: border-box;
 }
 
+#destaque_plus{
+    display: flex;
+    justify-content: space-between;
+}
+
+#destaque_plus p{
+    text-align: center;
+}
+
+.planos{
+    width: 500px;
+    border: 2px solid rgb(61, 206, 157);
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.planos ul{
+    text-align: left;
+}
+
+.planos p{
+    font-size: 14pt;;
+}
+
+.planos p span{
+    font-size: 20pt;
+    color: #ff0000;
+}
+
+
+
